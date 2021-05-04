@@ -1,3 +1,8 @@
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +40,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.products {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.products img {
+  width: 50%;
+  height: 50%;
+}
+.product {
+  padding: 60px;
+}
+button {
+  position: inherit;
+  font-size: 20px;
+  padding: 10px;
+  color: #fff;
+  background-color: blue;
+}
+header {
+  background-color: darkolivegreen;
+  height: 70px;
+  padding-top: 20px;
 }
